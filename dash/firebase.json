@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "dash-chatapp",
+          "appId": "1:222663140199:android:c6835055b7600896f285c2",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "dash-chatapp",
+          "configurations": {
+            "android": "1:222663140199:android:c6835055b7600896f285c2",
+            "ios": "1:222663140199:ios:fb598d20cd8d3f1af285c2",
+            "macos": "1:222663140199:ios:fb598d20cd8d3f1af285c2",
+            "web": "1:222663140199:web:386ced6831807256f285c2",
+            "windows": "1:222663140199:web:c1d4d2f84c061284f285c2"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

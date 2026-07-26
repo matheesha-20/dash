@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "222663140199",
+    "project_id": "dash-chatapp",
+    "storage_bucket": "dash-chatapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222663140199:android:c6835055b7600896f285c2",
+        "android_client_info": {
+          "package_name": "com.example.dash"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwWo3SPKsYOlwcl7kTGPUcOnUWF24NHQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222663140199:android:c2c8b192847cc160f285c2",
+        "android_client_info": {
+          "package_name": "com.mfinyt.dash"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwWo3SPKsYOlwcl7kTGPUcOnUWF24NHQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
